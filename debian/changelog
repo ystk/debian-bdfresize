@@ -1,3 +1,13 @@
+bdfresize (1.5-6) unstable; urgency=low
+
+  * debian/*: Rewritten.
+    - Simplify debian/rules with dh.
+    - Switch to copyright-format-1.0.
+    - Switch to dpkg-source 3.0 (quilt) format.
+    - Update Standards-Version to 3.9.3.
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 29 Apr 2012 00:42:46 +0900
+
 bdfresize (1.5-5) unstable; urgency=low
 
   * New Maintainer. (Closes: #472706)
