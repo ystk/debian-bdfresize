@@ -1,3 +1,16 @@
+bdfresize (1.5-8) unstable; urgency=low
+
+  * debian/rules: Use dpkg-buildflags to enable hardening flags
+  * Revert the previous debhelper bump
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Thu, 19 Jul 2012 23:03:54 +0900
+
+bdfresize (1.5-7) unstable; urgency=low
+
+  * Update debhelper compat level to 9 to support hardening flags
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 08 Jul 2012 16:43:36 +0900
+
 bdfresize (1.5-6) unstable; urgency=low
 
   * debian/*: Rewritten.
