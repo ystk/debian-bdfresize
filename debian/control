@@ -3,7 +3,9 @@ Section: x11
 Priority: optional
 Maintainer: Tatsuya Kinoshita <tats@debian.org>
 Build-Depends: debhelper (>= 8~)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/collab-maint/bdfresize.git
+Vcs-Browser: http://anonscm.debian.org/cgit/collab-maint/bdfresize.git
 Homepage: http://openlab.jp/efont/
 
 Package: bdfresize
